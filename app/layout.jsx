@@ -27,13 +27,12 @@ const Display = localFont({
     },
   ],
 
-  variable: "--font-display",
+  variable: "--font-sans",
 });
 
 export const metadata = {
-  title: "Found by AI",
+  title: "FindMyItem AI",
   description: "Find your lost items with AI",
-  generator: "v0.dev",
 };
 
 export default function RootLayout({ children }) {
